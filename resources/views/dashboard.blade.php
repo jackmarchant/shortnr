@@ -3,11 +3,11 @@
 @section('content')
     <div class="container mt-3">
         <h1>Dashboard</h1>
-        <div class="float-right mb-3">
-            <a class="d-block btn btn-primary" href="{{ route('index') }}">Create a Shortnr URL</a>
+        <div class="mb-3">
+            <a class="btn btn-primary" href="{{ route('index') }}">Create a Shortnr URL</a>
         </div>
 
-        <table class="table">
+        <table class="table table-responsive table-striped table-hover">
             <thead>
                 <tr>
                     <th scope="col">Short URL</th>

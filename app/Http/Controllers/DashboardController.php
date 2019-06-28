@@ -9,6 +9,7 @@ class DashboardController extends Controller
 {
     public function show(Request $reqest)
     {
-        return view('dashboard', ['urls' => ShortURL::all()]);
+        $urls = ShortURL::all()->sortByDesc('created_at');
+        return view('dashboard', ['urls' => $urls]);
     }
 }
