@@ -1,9 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "jackmarchant/shortnr",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Shorten URLS and track usage",
     "keywords": [
-        "framework",
         "laravel"
     ],
     "license": "MIT",
